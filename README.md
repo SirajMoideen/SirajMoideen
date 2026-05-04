@@ -30,6 +30,39 @@
 
 ---
 
+## `$ kubectl get projects --field-selector=status=battle-tested`
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📖 <a href="https://github.com/SirajMoideen/sre-runbooks">SRE Runbooks & Automation Toolkit</a></h3>
+      <p>A living library of production-grade runbooks, automation scripts, and operational playbooks — built from real incidents, upgrades, and late-night war rooms.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Shell-90%25-4EAA25?style=flat-square&logo=gnubash&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Python-10%25-3776AB?style=flat-square&logo=python&logoColor=white"/>
+      </p>
+      <details>
+        <summary><b>⚡ What's inside</b></summary>
+        <br/>
+        <ul>
+          <li>🍃 <b>MongoDB on K8s</b> — Operator + version upgrade runbook (5.0 → 8.0), backup to GCS via CronJob</li>
+          <li>🐘 <b>PostgreSQL DBA</b> — Cheatsheet for day-to-day administration & Cloud SQL ops</li>
+          <li>☁️ <b>GCP Automation</b> — SA key rotation, service account audit, disk migration, resource inventory</li>
+          <li>📊 <b>Prometheus + Grafana</b> — Kubernetes pod monitoring dashboard (JSON)</li>
+          <li>🔒 <b>SSL Monitor</b> — Bulk cert expiry checker across multiple domains</li>
+          <li>🔁 <b>Service Auto-Restarter</b> — HTTP health monitor with systemd restart + webhook alerts</li>
+          <li>🐳 <b>Docker Ops</b> — Cleanup runbook, network conflict fix</li>
+          <li>🏃 <b>GitLab Runner</b> — Install, manage, troubleshoot CI/CD runners</li>
+          <li>📦 <b>StatefulSet Snapshots</b> — PV backup & restore procedures</li>
+          <li>🐧 <b>CentOS → Rocky Linux 8</b> — Migration guide</li>
+        </ul>
+      </details>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## `$ ping me`
 
 Open to SRE opportunities. Focused on Kubernetes, scaling, and production reliability.

@@ -58,6 +58,32 @@
         </ul>
       </details>
     </td>
+    <td width="50%" valign="top">
+      <h3>🚀 <a href="https://github.com/SirajMoideen/uptime-monitor">Uptime Monitor</a></h3>
+      <p><img src="https://img.shields.io/badge/Featured-Personal_Project-FF6B35?style=flat-square"/></p>
+      <p>End-to-end showcase I built from scratch — Flask app with HTTP, ping & TCP checks, PostgreSQL storage, and a complete CI/CD + GitOps pipeline on my private Kubernetes lab.</p>
+      <p>
+        <a href="https://github.com/SirajMoideen/uptime-monitor"><img src="https://img.shields.io/badge/App-uptime--monitor-3776AB?style=flat-square&logo=python&logoColor=white"/></a>
+        <a href="https://github.com/SirajMoideen/uptime-monitor-gitops"><img src="https://img.shields.io/badge/GitOps-uptime--monitor--gitops-0F1689?style=flat-square&logo=helm&logoColor=white"/></a>
+        <img src="https://img.shields.io/badge/ArgoCD-auto--sync-EF7B4D?style=flat-square&logo=argo&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Prometheus%20%2B%20Grafana-in%20progress-E6522C?style=flat-square&logo=prometheus&logoColor=white"/>
+      </p>
+      <details>
+        <summary><b>⚙️ CI/CD & Architecture</b></summary>
+        <br/>
+        <ul>
+          <li>🔨 <b>Build</b> — Self-hosted GitHub Actions runner builds & pushes to GHCR</li>
+          <li>🔄 <b>GitOps</b> — Image tag auto-updated in <a href="https://github.com/SirajMoideen/uptime-monitor-gitops">uptime-monitor-gitops</a></li>
+          <li>☸️ <b>Deploy</b> — ArgoCD syncs to <code>dev</code> (push to <code>dev</code>) or <code>prod</code> (push to <code>main</code>)</li>
+          <li>📊 <b>Observability</b> — Prometheus & Grafana integration in progress</li>
+        </ul>
+        <p><i>Personal lab setup — auto-deploy on both envs for demo. Production-grade would use manual approval gates.</i></p>
+      </details>
+      <br/>
+      <a href="https://github.com/SirajMoideen/uptime-monitor#readme">
+        <img src="https://img.shields.io/badge/Explore-Full_Architecture_&_Setup-326CE5?style=for-the-badge&logo=github&logoColor=white"/>
+      </a>
+    </td>
   </tr>
 </table>
 

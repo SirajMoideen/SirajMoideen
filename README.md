@@ -41,7 +41,7 @@
         <img src="https://img.shields.io/badge/Shell-90%25-4EAA25?style=flat-square&logo=gnubash&logoColor=white"/>
         <img src="https://img.shields.io/badge/Python-10%25-3776AB?style=flat-square&logo=python&logoColor=white"/>
       </p>
-      <details>
+      <details open>
         <summary><b>⚡ What's inside</b></summary>
         <br/>
         <ul>
@@ -68,7 +68,7 @@
         <img src="https://img.shields.io/badge/ArgoCD-auto--sync-EF7B4D?style=flat-square&logo=argo&logoColor=white"/>
         <img src="https://img.shields.io/badge/Prometheus%20%2B%20Grafana-in%20progress-E6522C?style=flat-square&logo=prometheus&logoColor=white"/>
       </p>
-      <details>
+      <details open>
         <summary><b>⚙️ CI/CD & Architecture</b></summary>
         <br/>
         <ul>

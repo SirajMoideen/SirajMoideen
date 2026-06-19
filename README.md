@@ -22,6 +22,8 @@
 ![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
+![Kibana](https://img.shields.io/badge/Kibana-005571?style=flat-square&logo=kibana&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
@@ -61,12 +63,14 @@
     <td width="50%" valign="top">
       <h3>🚀 <a href="https://github.com/SirajMoideen/uptime-monitor">Uptime Monitor</a></h3>
       <p><img src="https://img.shields.io/badge/Featured-Personal_Project-FF6B35?style=flat-square"/></p>
-      <p>End-to-end showcase I built from scratch — Flask app with HTTP, ping & TCP checks, PostgreSQL storage, and a complete CI/CD + GitOps pipeline on my private Kubernetes lab.</p>
+      <p>End-to-end showcase I built from scratch — Flask app with HTTP, ping & TCP checks, PostgreSQL storage, a complete CI/CD + GitOps pipeline, and full metrics & logging stacks on my private Kubernetes lab.</p>
       <p>
         <a href="https://github.com/SirajMoideen/uptime-monitor"><img src="https://img.shields.io/badge/App-uptime--monitor-3776AB?style=flat-square&logo=python&logoColor=white"/></a>
         <a href="https://github.com/SirajMoideen/uptime-monitor-gitops"><img src="https://img.shields.io/badge/GitOps-uptime--monitor--gitops-0F1689?style=flat-square&logo=helm&logoColor=white"/></a>
+        <a href="https://github.com/SirajMoideen/kind-platform"><img src="https://img.shields.io/badge/Infra-kind--platform-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/></a>
         <img src="https://img.shields.io/badge/ArgoCD-auto--sync-EF7B4D?style=flat-square&logo=argo&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Prometheus%20%2B%20Grafana-in%20progress-E6522C?style=flat-square&logo=prometheus&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Metrics-Prometheus%20%2B%20Grafana-E6522C?style=flat-square&logo=prometheus&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Logging-ES%20%2B%20Kibana%20%2B%20Filebeat-005571?style=flat-square&logo=elasticsearch&logoColor=white"/>
       </p>
       <details open>
         <summary><b>⚙️ CI/CD & Architecture</b></summary>
@@ -75,7 +79,9 @@
           <li>🔨 <b>Build</b> — Self-hosted GitHub Actions runner builds & pushes to GHCR</li>
           <li>🔄 <b>GitOps</b> — Image tag auto-updated in <a href="https://github.com/SirajMoideen/uptime-monitor-gitops">uptime-monitor-gitops</a></li>
           <li>☸️ <b>Deploy</b> — ArgoCD syncs to <code>dev</code> (push to <code>dev</code>) or <code>prod</code> (push to <code>main</code>)</li>
-          <li>📊 <b>Observability</b> — Prometheus & Grafana integration in progress</li>
+          <li>🏗️ <b>Lab infra</b> — Kind cluster, ingress, monitoring & logging stacks in <a href="https://github.com/SirajMoideen/kind-platform">kind-platform</a></li>
+          <li>📊 <b>Metrics</b> — Prometheus & Grafana deployed via ArgoCD</li>
+          <li>📋 <b>Logging</b> — Elasticsearch, Kibana & Filebeat deployed via ArgoCD</li>
         </ul>
         <p><i>Personal lab setup — auto-deploy on both envs for demo. Production-grade would use manual approval gates.</i></p>
       </details>
